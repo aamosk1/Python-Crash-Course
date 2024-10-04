@@ -43,7 +43,7 @@ popped_motorcycle = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycle)
 
-#using pop() to print statement of last motorcycle we bought
+#using pop() to print statement of last motorcycle we bought.
 
 motorcycles = ['honday','yamaha','suzuki']
 print(motorcycles)
@@ -71,3 +71,18 @@ too_expensive = 'ducati'
 motorcycles.remove(too_expensive)
 print(motorcycles)
 print(f"\nA {too_expensive.title()} is too expensive for me")
+
+#Try it yourself excercise page 42 lists
+
+dinner_guests = ['mom', 'dad', 'sister']
+print(dinner_guests)
+cant_attend = 'mom'
+dinner_guests.remove(cant_attend)
+print(f"\n {cant_attend.title()} can't make it tonight")
+dinner_guests.insert(0, 'brother')
+print(dinner_guests)
+print("We Have more guests but i found a table")
+dinner_guests.insert(0, 'Joe')
+dinner_guests.insert(1, 'Jill')
+dinner_guests.append('Jack')    
+print(dinner_guests)
